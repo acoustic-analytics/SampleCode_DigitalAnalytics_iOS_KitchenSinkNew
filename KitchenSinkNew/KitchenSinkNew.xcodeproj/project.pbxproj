@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0156C168FF982C0BCC8B3195 /* Pods_KitchenSinkNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328A28965B4F6E6254BA2246 /* Pods_KitchenSinkNewTests.framework */; };
 		1E0C6C701C73A607003603EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C6C6F1C73A607003603EB /* libz.tbd */; };
 		1E0C6C721C73A62C003603EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C6C711C73A62C003603EB /* CoreTelephony.framework */; };
-		4C11BC5C1D10E2696E42B824 /* Pods_KitchenSinkNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FAB3A0D5CB2D3B7D1BF6A /* Pods_KitchenSinkNew.framework */; };
-		7D1F6C383F0001556D784FEF /* Pods_KitchenSinkNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E6C29882EB4E6E28C3F701 /* Pods_KitchenSinkNewTests.framework */; };
 		DC5B4C8E1AB745FC0098C962 /* CheckoutDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5B4C8D1AB745FC0098C962 /* CheckoutDataViewController.m */; };
 		DC5B4C911AB75EF90098C962 /* CheckoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5B4C901AB75EF90098C962 /* CheckoutController.m */; };
 		DC5B4C941AB8888A0098C962 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5B4C931AB8888A0098C962 /* ShoppingCart.m */; };
@@ -34,6 +33,7 @@
 		DC7DE63D1AB34164004A7E59 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE63C1AB34164004A7E59 /* ProductCategory.m */; };
 		DC7DE6401AB34325004A7E59 /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE63F1AB34325004A7E59 /* Catalog.m */; };
 		DC7DE6431AB37961004A7E59 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE6421AB37961004A7E59 /* ProductController.m */; };
+		EFBF6D5797E56E0A9B355DBE /* Pods_KitchenSinkNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528BD6C95A8DD7E3A3D6064 /* Pods_KitchenSinkNew.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13F2B7717C29A16024ABC303 /* Pods-KitchenSinkNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew.debug.xcconfig"; sourceTree = "<group>"; };
-		15013AEA3DB9F497642DADED /* Pods-KitchenSinkNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests.release.xcconfig"; sourceTree = "<group>"; };
+		0528BD6C95A8DD7E3A3D6064 /* Pods_KitchenSinkNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitchenSinkNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		167FD880F6151A005914566E /* Pods-KitchenSinkNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNewTests.debug.xcconfig"; path = "Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E0C6C6F1C73A607003603EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1E0C6C711C73A62C003603EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		1b10129c9d8d203e563f83d5 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		2E8D3B19F2717F5DAA8D0674 /* Pods-KitchenSinkNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew.release.xcconfig"; sourceTree = "<group>"; };
-		38E6C29882EB4E6E28C3F701 /* Pods_KitchenSinkNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitchenSinkNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		413FAB3A0D5CB2D3B7D1BF6A /* Pods_KitchenSinkNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitchenSinkNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A28965B4F6E6254BA2246 /* Pods_KitchenSinkNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitchenSinkNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		465551E80C2DDA82D340E246 /* Pods-KitchenSinkNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNew.release.xcconfig"; path = "Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew.release.xcconfig"; sourceTree = "<group>"; };
+		A670ADC3436ABD62766A536B /* Pods-KitchenSinkNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNewTests.release.xcconfig"; path = "Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC5B4C8C1AB745FC0098C962 /* CheckoutDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutDataViewController.h; sourceTree = "<group>"; };
 		DC5B4C8D1AB745FC0098C962 /* CheckoutDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutDataViewController.m; sourceTree = "<group>"; };
 		DC5B4C8F1AB75EF90098C962 /* CheckoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutController.h; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		DC7DE63F1AB34325004A7E59 /* Catalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catalog.m; sourceTree = "<group>"; };
 		DC7DE6411AB37961004A7E59 /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
 		DC7DE6421AB37961004A7E59 /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
-		F9CA5108F5BAAB066172928F /* Pods-KitchenSinkNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F24BCF6F2911145C82BA7FAA /* Pods-KitchenSinkNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenSinkNew.debug.xcconfig"; path = "Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				DC5B4CD31ABA287F0098C962 /* UIKit.framework in Frameworks */,
 				DC5B4CD11ABA286A0098C962 /* Foundation.framework in Frameworks */,
 				DC5B4CC51AB9F5A50098C962 /* SystemConfiguration.framework in Frameworks */,
-				4C11BC5C1D10E2696E42B824 /* Pods_KitchenSinkNew.framework in Frameworks */,
+				EFBF6D5797E56E0A9B355DBE /* Pods_KitchenSinkNew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,22 +120,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1F6C383F0001556D784FEF /* Pods_KitchenSinkNewTests.framework in Frameworks */,
+				0156C168FF982C0BCC8B3195 /* Pods_KitchenSinkNewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1575019B4BA724DE3CDF2658 /* Pods */ = {
+		0E4113FF570348D273BC4C74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				13F2B7717C29A16024ABC303 /* Pods-KitchenSinkNew.debug.xcconfig */,
-				2E8D3B19F2717F5DAA8D0674 /* Pods-KitchenSinkNew.release.xcconfig */,
-				F9CA5108F5BAAB066172928F /* Pods-KitchenSinkNewTests.debug.xcconfig */,
-				15013AEA3DB9F497642DADED /* Pods-KitchenSinkNewTests.release.xcconfig */,
+				F24BCF6F2911145C82BA7FAA /* Pods-KitchenSinkNew.debug.xcconfig */,
+				465551E80C2DDA82D340E246 /* Pods-KitchenSinkNew.release.xcconfig */,
+				167FD880F6151A005914566E /* Pods-KitchenSinkNewTests.debug.xcconfig */,
+				A670ADC3436ABD62766A536B /* Pods-KitchenSinkNewTests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		DC5B4C981AB91A200098C962 /* tagging */ = {
@@ -165,8 +165,8 @@
 				DC5B4CD01ABA286A0098C962 /* Foundation.framework */,
 				DC5B4CC41AB9F5A50098C962 /* SystemConfiguration.framework */,
 				1b10129c9d8d203e563f83d5 /* CFNetwork.framework */,
-				413FAB3A0D5CB2D3B7D1BF6A /* Pods_KitchenSinkNew.framework */,
-				38E6C29882EB4E6E28C3F701 /* Pods_KitchenSinkNewTests.framework */,
+				0528BD6C95A8DD7E3A3D6064 /* Pods_KitchenSinkNew.framework */,
+				328A28965B4F6E6254BA2246 /* Pods_KitchenSinkNewTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 				DC7DE5FA1A97AFB9004A7E59 /* KitchenSinkNew */,
 				DC7DE6141A97AFB9004A7E59 /* KitchenSinkNewTests */,
 				DC7DE5F91A97AFB9004A7E59 /* Products */,
-				1575019B4BA724DE3CDF2658 /* Pods */,
+				0E4113FF570348D273BC4C74 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,13 +275,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC7DE61B1A97AFB9004A7E59 /* Build configuration list for PBXNativeTarget "KitchenSinkNew" */;
 			buildPhases = (
-				3347C23CF3831BF59464AC4D /* [CP] Check Pods Manifest.lock */,
+				DFF0629A23AE9B1B5B73C8E1 /* [CP] Check Pods Manifest.lock */,
 				DC7DE5F41A97AFB9004A7E59 /* Sources */,
 				DC7DE5F51A97AFB9004A7E59 /* Frameworks */,
 				DC7DE5F61A97AFB9004A7E59 /* Resources */,
 				667159711FD2517500BBE15B /* Headers */,
-				7B9C81632A95BAA29B64C022 /* [CP] Embed Pods Frameworks */,
-				91F26AB7243B64E3041B6594 /* [CP] Copy Pods Resources */,
+				4BBDFA323B31F7B514D23E48 /* [CP] Embed Pods Frameworks */,
+				699B7E5BDC232C39E7842576 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,12 +296,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC7DE61E1A97AFB9004A7E59 /* Build configuration list for PBXNativeTarget "KitchenSinkNewTests" */;
 			buildPhases = (
-				AFCA2A624DA33A592D420D27 /* [CP] Check Pods Manifest.lock */,
+				FCCFFF803B3998637456783A /* [CP] Check Pods Manifest.lock */,
 				DC7DE60D1A97AFB9004A7E59 /* Sources */,
 				DC7DE60E1A97AFB9004A7E59 /* Frameworks */,
 				DC7DE60F1A97AFB9004A7E59 /* Resources */,
-				8FA900F1A705F688D1247C33 /* [CP] Embed Pods Frameworks */,
-				648FD22371E175C600077154 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,7 +317,7 @@
 		DC7DE5F01A97AFB9004A7E59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = Acoustic;
 				TargetAttributes = {
 					DC7DE5F71A97AFB9004A7E59 = {
@@ -335,7 +333,7 @@
 			};
 			buildConfigurationList = DC7DE5F31A97AFB9004A7E59 /* Build configuration list for PBXProject "KitchenSinkNew" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -373,48 +371,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3347C23CF3831BF59464AC4D /* [CP] Check Pods Manifest.lock */ = {
+		4BBDFA323B31F7B514D23E48 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KitchenSinkNew-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		648FD22371E175C600077154 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B9C81632A95BAA29B64C022 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-frameworks.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.framework",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCore.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DAMod/DAMod.framework/DAMod",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/EOCore/EOCore.framework/EOCore",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -423,33 +388,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8FA900F1A705F688D1247C33 /* [CP] Embed Pods Frameworks */ = {
+		699B7E5BDC232C39E7842576 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNewTests/Pods-KitchenSinkNewTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91F26AB7243B64E3041B6594 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.framework/DAMod.bundle",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCore.framework/EOCoreSettings.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh",
+				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.bundle",
+				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCoreSettings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -458,19 +408,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFCA2A624DA33A592D420D27 /* [CP] Check Pods Manifest.lock */ = {
+		DFF0629A23AE9B1B5B73C8E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KitchenSinkNew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCFFF803B3998637456783A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KitchenSinkNewTests-checkManifestLockResult.txt",
 			);
@@ -555,14 +531,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -589,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -608,14 +587,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -634,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -643,7 +625,7 @@
 		};
 		DC7DE61C1A97AFB9004A7E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F2B7717C29A16024ABC303 /* Pods-KitchenSinkNew.debug.xcconfig */;
+			baseConfigurationReference = F24BCF6F2911145C82BA7FAA /* Pods-KitchenSinkNew.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
@@ -651,7 +633,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -660,7 +642,7 @@
 		};
 		DC7DE61D1A97AFB9004A7E59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E8D3B19F2717F5DAA8D0674 /* Pods-KitchenSinkNew.release.xcconfig */;
+			baseConfigurationReference = 465551E80C2DDA82D340E246 /* Pods-KitchenSinkNew.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
@@ -668,7 +650,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -677,7 +659,7 @@
 		};
 		DC7DE61F1A97AFB9004A7E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9CA5108F5BAAB066172928F /* Pods-KitchenSinkNewTests.debug.xcconfig */;
+			baseConfigurationReference = 167FD880F6151A005914566E /* Pods-KitchenSinkNewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -696,7 +678,7 @@
 		};
 		DC7DE6201A97AFB9004A7E59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15013AEA3DB9F497642DADED /* Pods-KitchenSinkNewTests.release.xcconfig */;
+			baseConfigurationReference = A670ADC3436ABD62766A536B /* Pods-KitchenSinkNewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
