@@ -1,12 +1,12 @@
-/********************************************************************************************
-* Copyright (C) 2016 Acoustic, L.P. All rights reserved.
-*
-* NOTICE: This file contains material that is confidential and proprietary to
-* Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
-* industrial property rights of Acoustic, L.P. except as may be provided in an agreement with
-* Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
-* prohibited.
-********************************************************************************************/
+//
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
+//
+// NOTICE: This file contains material that is confidential and proprietary to
+// Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
+// industrial property rights of Acoustic, L.P. except as may be provided in an agreement with
+// Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
+// prohibited.
+//
 #import "ProductController.h"
 #import "Product.h"
 #import "ShoppingCart.h"
@@ -83,39 +83,34 @@
 {
     self.selectedRow = indexPath.row;
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Add to Cart"
-                                                    message:@"Quantity"
-                                                   delegate:self
-                                          cancelButtonTitle:@"Cancel"
-                                          otherButtonTitles:@"Add",nil];
-    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
-    UITextField *myTextField = [alert textFieldAtIndex:0];
-    myTextField.keyboardType = UIKeyboardTypeNumberPad;
-    [alert show];
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    //Cancel: 0
-    //Add to Cart: 1
-    if(buttonIndex == 1)
-    {
-        UITextField *myTextField = [alertView textFieldAtIndex:0];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Add to Cart"
+                                                                   message:@"Quantity"
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+    }];
+    
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        // do your action on cancel click
+    }]];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Add" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+        UITextField *myTextField = alert.textFields.firstObject;
         NSString *inputQuantity = myTextField.text;
         int quantity = [inputQuantity intValue];
         Product *product = [self.productCategory.products objectAtIndex:self.selectedRow];
         Product *cartItem = [[Product alloc] initWithDetails:product.productId categoryId:product.categoryId name:product.name baseUnitPrice:product.baseUnitPrice quantity:quantity attributes:product.attributes];
-        
+
         ShoppingCart *cart = [ShoppingCart instance];
         [cart addToCart:cartItem];
-        
+
         //TAGGING: Tag the addition of a product into your ShoppingCart
         NSString *pageName = NSStringFromClass([self class]);
         id<Tag> shopAction5Tag = [[TagShopAction5 alloc] initTag:pageName product:cartItem];
         [shopAction5Tag executeTag];
-    }
-}
+    }]];
+    [self presentViewController:alert animated:YES completion:nil];
 
+}
 
 /*
 // Override to support conditional editing of the table view.
