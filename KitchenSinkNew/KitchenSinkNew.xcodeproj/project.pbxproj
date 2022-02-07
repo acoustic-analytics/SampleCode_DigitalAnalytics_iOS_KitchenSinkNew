@@ -322,11 +322,11 @@
 				TargetAttributes = {
 					DC7DE5F71A97AFB9004A7E59 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = PP64RT7P8Z;
+						DevelopmentTeam = QXQ67VKX2B;
 					};
 					DC7DE6101A97AFB9004A7E59 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = PP64RT7P8Z;
+						DevelopmentTeam = QXQ67VKX2B;
 						TestTargetID = DC7DE5F71A97AFB9004A7E59;
 					};
 				};
@@ -398,8 +398,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.bundle",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCoreSettings.bundle",
+				"${PODS_ROOT}/DigitalAnalyticsDebug/SDKs/iOS/Debug/DAMod.bundle",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCoreSettings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -631,6 +631,7 @@
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -648,6 +649,7 @@
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -664,6 +666,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -683,6 +686,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNewTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aco.$(PRODUCT_NAME:rfc1034identifier)";

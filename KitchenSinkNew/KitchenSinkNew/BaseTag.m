@@ -1,12 +1,12 @@
-/********************************************************************************************
-* Copyright (C) 2016 Acoustic, L.P. All rights reserved.
-*
-* NOTICE: This file contains material that is confidential and proprietary to
-* Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
-* industrial property rights of Acoustic, L.P. except as may be provided in an agreement with
-* Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
-* prohibited.
-********************************************************************************************/
+//
+// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
+//
+// NOTICE: This file contains material that is confidential and proprietary to
+// Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
+// industrial property rights of Acoustic, L.P. except as may be provided in an agreement with
+// Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
+// prohibited.
+//
 
 #import "BaseTag.h"
 #import <UIKit/UIKit.h>
@@ -26,12 +26,13 @@
         message = [NSString stringWithFormat:@"%@ Failed",tagClass];
     }
     
-    UIAlertView *toast = [[UIAlertView alloc] initWithTitle:nil
-                                                    message:message
-                                                   delegate:nil
-                                          cancelButtonTitle:nil
-                                          otherButtonTitles:@"Close", nil];
-    [toast show];
+    UIAlertController *toast = [UIAlertController alertControllerWithTitle:nil message:message preferredStyle:UIAlertControllerStyleAlert];
+    [toast addAction:[UIAlertAction actionWithTitle:@"Close" style:UIAlertActionStyleDefault handler:nil]];
+    UIViewController *viewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    if ( viewController.presentedViewController && !viewController.presentedViewController.isBeingDismissed ) {
+        viewController = viewController.presentedViewController;
+    }
+    [viewController presentViewController:toast animated:YES completion:nil];
     
     /*int duration = 1; // duration in seconds
     
